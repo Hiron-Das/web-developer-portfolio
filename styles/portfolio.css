@@ -16,6 +16,7 @@ body {
     color: white;
     font-size: 1.25rem;
     font-weight: 700;
+    padding: 0.8rem 1.8rem;
 }
 
 /* nav styles */
@@ -23,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 10rem;
 }
 
 .nav-title {
@@ -47,6 +49,21 @@ nav a {
     color: #474747;
 }
 
-.nav-btn {
+/* .nav-btn {
     padding: 0.8rem 1.8rem;
+} */
+
+/* header related styles---- */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 2rem 2rem 2rem 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 30rem;
 }
