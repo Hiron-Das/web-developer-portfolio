@@ -128,7 +128,7 @@ nav a {
 /* -----What I do section styles------- */
 .my-work-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ nav a {
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    gap: 30px;
     margin-top: 50px;
 }
 
@@ -165,5 +165,61 @@ nav a {
     padding: 20px;
     background: #FFFFFF;
     border-radius: 8px;
-    box-shadow: 5px 5px 10px 30px #FFF8F3;
+    box-shadow: 1px 5px 10px 2px #e1dddd;
+}
+
+.card h4 {
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* ---------------Summary of my resume section styles---------------- */
+.summary-section>h3 {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: #181818;
+}
+
+.summary-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.my-education h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: #474747;
+}
+
+.cards h3 {
+    font-size: 25px;
+}
+
+.cards h4 {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.cards p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
 }
